@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <item
+        android:id="@+id/agregarContacto"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_input_add"
+        android:iconTint="@android:color/background_light"
+        android:title="Agregar"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/buscarContacto"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:iconTint="@android:color/background_light"
+        android:title="Buscar"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+</menu>
